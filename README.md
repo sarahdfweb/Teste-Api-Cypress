@@ -28,8 +28,8 @@ Os testes utilizam os seguintes métodos HTTP:
 ## Automação: Contratos
 Os contratos são super importantes para manter os tipos funcionando, note nos parâmetros abaixo:
 
-![image](![image](https://github.com/sarahdfweb/Teste-Api-Cypress/assets/87348787/80669512-19b4-437c-a10b-1630ea58122b)
-)
+![image](https://github.com/sarahdfweb/Teste-Api-Cypress/assets/87348787/c64e9d10-84a6-4d41-ba93-4a3f3d1313cb)
+
 
 Cada um tem um tipo que deve receber por exemplo: string, integer etc a automação deve garantir que esses tipos especificados em contratos deve permanecer, pois se mudar um parâmetro, todos os sistemas que consomem essa API podem quebrar causando uma sequência de erros. Então, no teste de contrato deve passar cada um desses parâmetros e cada um desses tipos para garantir que tudo funcione perfeitamente. Usei nesses testes a biblioteca Joi (`npm install joi`) e ela fica instalada no `package.json`.
 
