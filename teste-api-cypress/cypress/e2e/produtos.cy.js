@@ -95,6 +95,8 @@ it('Deve deletar um produto previamente cadastrado - DELETE', () => {
         })
     })
 })
+
+//Precisei realizar esse testes em um produto 
 /*it('Deve deletar um determinado produto', () => {
     const token = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbHRyYW5vQHFhLmNvbS5iciIsInBhc3N3b3JkIjoidGVzdGUiLCJpYXQiOjE3MDg1NDU4NDUsImV4cCI6MTcwODU0NjQ0NX0.QbIJBCooxA75CdI_jLOFNHfHUxuoHGgc2pUvPw6HFDs'; // Certifique-se de substituir pelo token real
     const id = 'gGvOlF6Cp3XCOEK0'; // ID do produto a ser deletado
