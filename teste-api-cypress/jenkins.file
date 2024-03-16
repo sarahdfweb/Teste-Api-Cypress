@@ -1,0 +1,7 @@
+stage('Setup'){
+    sh 'echo "Setting up..."'
+}
+
+stage('Test'){
+    sh 'echo "Testing..."'
+}

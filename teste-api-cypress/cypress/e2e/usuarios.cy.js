@@ -107,7 +107,7 @@ describe('Teste de API - Login', () => {
   
     it('Deve Deletar um Usuário Previamente Cadastrado - DELETE', () => {
 
-           const idUsuarioDeletar = 'gpkGq3JYXViUcfYL';
+           const idUsuarioDeletar = '1252oZSqmXp5cDjD';
             cy.request({
                 method: 'DELETE',
                 url: `/usuarios/${idUsuarioDeletar}`,
