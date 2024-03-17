@@ -1,7 +1,17 @@
-stage('Setup'){
-    sh 'echo "Setting up..."'
-}
-
-stage('Test'){
-    sh 'echo "Testing..."'
+pipeline {
+    agent any
+    stages {
+        stage('Setup') {
+            steps {
+                // Clonando o repositório do GitHub
+                git branch: 'main', url: 'https://github.com/sarahdfweb/Teste-Api-Cypress.git'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'echo "Testing..."'
+                // Adicione aqui os comandos para executar seus testes
+            }
+        }
+    }
 }

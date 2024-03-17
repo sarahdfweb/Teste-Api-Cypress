@@ -78,11 +78,11 @@ describe('Teste de API - Login', () => {
         
             const usuarioEditar = {
                 // Editando os dados
-                nome: 'Usuario777',
-                email: 'rano@qa.com.br',
+                nome: 'poatUsuario777',
+                email: 'pçtrano@qa.com.br',
                 password: 'teste',
                 administrador: 'true',
-                _id: '1252oZSqmXp5cDjD'
+                _id: 'UdJcV77W1sYkEuE5'
             };
         
             // Realiza a requisição PUT para editar o usuário
@@ -107,7 +107,7 @@ describe('Teste de API - Login', () => {
   
     it('Deve Deletar um Usuário Previamente Cadastrado - DELETE', () => {
 
-           const idUsuarioDeletar = '1252oZSqmXp5cDjD';
+           const idUsuarioDeletar = 'VTfEouUDQxD6mJp0';
             cy.request({
                 method: 'DELETE',
                 url: `/usuarios/${idUsuarioDeletar}`,
