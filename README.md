@@ -52,7 +52,7 @@ O arquivo `commands.js` contém comandos personalizados utilizados nos testes.
 2. Instale o Cypress.
 3. Execute os testes com o comando `npm test`.
 
-## Integração Contínua
+## Integração Contínua 🚧 em contrução
 
 No projeto também foi feito integração continua utilizado docker, cypress, jenkins (pipeline).
 
